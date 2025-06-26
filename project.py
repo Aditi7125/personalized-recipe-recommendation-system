@@ -21,7 +21,7 @@ def get_recipes(query, min_calories, max_calories, diet=None, intolerances=None,
         
         url = "https://api.spoonacular.com/recipes/complexSearch"
         p = { 
-            "apiKey": "0ddf61be837c41ba8694600f1ba818e1", 
+            "apiKey": "yourapikey",
             "query": query, 
             "minCalories": min_calories,
             "maxCalories": max_calories, 
